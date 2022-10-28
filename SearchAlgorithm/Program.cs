@@ -45,6 +45,10 @@ namespace SearchAlgorithm
                 //apply binary search
                 int lowerbound = 0;
                 int upperbound = n - 1;
+
+                //obtain the index of the elements in the array
+                int mid = (lowerbound + upperbound) / 2;
+                int ctr = 1
             }
         }
     }
